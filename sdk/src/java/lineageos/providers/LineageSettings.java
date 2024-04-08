@@ -3132,10 +3132,15 @@ public final class LineageSettings {
         public static final String LOCK_SCREEN_WEATHER_ENABLED = "lock_screen_weather_enabled";
 
         /**
+         * Whether to show the network traffic monitor
+         * @hide
+         */
+        public static final String NETWORK_TRAFFIC_MONITOR = "network_traffic_monitor";
+
+        /**
          * Network traffic indicator location
-         * 0 = Disabled
-         * 1 = Statusbar
-         * 2 = Quick statusbar
+         * 0 = Statusbar
+         * 1 = Quick statusbar
          * @hide
          */
         public static final String NETWORK_TRAFFIC_LOCATION = "network_traffic_location";
