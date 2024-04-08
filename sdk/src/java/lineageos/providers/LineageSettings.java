@@ -2879,12 +2879,6 @@ public final class LineageSettings {
         public static final String POWER_MENU_ACTIONS = "power_menu_actions";
 
         /**
-         * Whether to show the auto brightness icon in quick settings panel.
-         * @hide
-         */
-        public static final String QS_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
-
-        /**
          * Global stats collection
          * @hide
          */
