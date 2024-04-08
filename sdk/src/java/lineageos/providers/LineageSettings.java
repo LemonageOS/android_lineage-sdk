@@ -3175,7 +3175,7 @@ public final class LineageSettings {
 
         /** @hide */
         public static final Validator NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD_VALIDATOR =
-                new InclusiveIntegerRangeValidator(0, 10000);
+                new InclusiveIntegerRangeValidator(0, 10);
 
         /**
          * Whether to hide arrows for network traffic
