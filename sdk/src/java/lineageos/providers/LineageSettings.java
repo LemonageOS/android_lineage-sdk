@@ -3197,12 +3197,6 @@ public final class LineageSettings {
         public static final Validator NETWORK_TRAFFIC_SHOW_UNITS_VALIDATOR = sBooleanValidator;
 
         /**
-         * Specify refresh duration for network traffic
-         * @hide
-         */
-        public static final String NETWORK_TRAFFIC_REFRESH_INTERVAL = "network_traffic_refresh_interval";
-
-        /**
          * Whether to hide arrows for network traffic
          * @hide
          */
